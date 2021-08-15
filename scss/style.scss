@@ -1,0 +1,109 @@
+@import "variables";
+@import "switch-toggle";
+@import "range-slider";
+
+body {
+  font-family: $Manrope, sans-serif;
+  box-sizing: border-box;
+  font-size: 15px;
+  padding: 0;
+  margin: 0;
+}
+
+.grid {
+  display: grid;
+}
+.flex {
+  display: flex;
+}
+ul {
+  list-style: none;
+}
+
+main {
+  height: 100vh;
+  width: 100vw;
+  background-color: $Very-Pale-Blue;
+}
+
+.bg-background {
+  background-image: url("/images/bg-pattern.svg");
+  background-size: cover;
+  height: 50%;
+  align-items: center;
+}
+
+.bg2 {
+  background-image: url("/images/pattern-circles.svg");
+  background-size: cover;
+  height: 38.7%;
+  width: 42.1%;
+  z-index: 0;
+  margin: auto;
+  transform: translatey(50%);
+}
+
+.bg3 {
+  height: 35%;
+  width: 100vw;
+  position: relative;
+  transform: translatey(-35%);
+  color: black;
+  text-align: center;
+}
+.bg3 h1 {
+  font-size: 22.5px;
+  font-weight: 800;
+}
+.bg3 p {
+  font-size: 13.5px;
+  font-weight: 600;
+  margin-left: 24%;
+  margin-right: 24%;
+  line-height: 25px;
+}
+.bg4 {
+  background-color: red;
+  height: 100%;
+  width: 85vw;
+  position: relative;
+  margin: auto;
+  transform: translateY(-11%);
+  border-radius: 3%;
+  grid-template-rows: 55% 0%;
+}
+
+.payment-plan-sec {
+  background-color: yellow;
+}
+
+.comfirm-sec {
+  // align-items: center;
+}
+
+.btn-trial {
+  background-color: $Dark-Desaturated-Blue;
+  color: $Pale-Blue;
+  border-radius: 30px;
+  border-style: none;
+  height: 40px;
+  padding: 0 20px;
+  width: 50%;
+  // margin: auto;
+  transform: translate(79px, 20px);
+  font-weight: 600;
+  font-size: 11px;
+}
+
+.icon-checker {
+  margin-right: 15px;
+}
+ul {
+  text-align: center;
+  // margin: auto;
+  transform: translate(-11%, 10px);
+  font-size: 13px;
+}
+li {
+  margin-top: 6px;
+}

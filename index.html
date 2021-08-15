@@ -5,6 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
 
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="./dist/style.css">
   
   <title>Frontend Mentor | Interactive pricing component</title>
 
@@ -15,8 +16,48 @@
   </style>
 </head>
 <body>
+<main>
+  <div class="bg-background">
+    <div class="bg2"></div>
+    <div class="bg3">
+      <h1>Simple, traffic-based pricing</h1>
+      <p> Sign-up for our 30-day trial. No credit card required. </p>
+    </div>
+    <div class="bg4 grid">
+      <div class="payment-plan-sec">
 
-  Simple, traffic-based pricing
+        <div class="range">
+          <div class="sliderValue"></div>
+            <div class="field">
+            <div class="value left">
+            </div>
+            <input type="range">
+            <div class="value right">
+              </div>
+              </div>
+       </div>
+
+
+        <label class="switch">
+          <input type="checkbox">
+          <span class="slider round"></span>
+        </label>
+      </div>
+      <div class="comfirm-sec ">
+        <ul>
+          <li><img class="icon-checker" src="/images/icon-check.svg" alt="">Unlimited websites</li>
+          <li><img class="icon-checker" src="/images/icon-check.svg" alt="">100% data ownership</li>
+          <li><img class="icon-checker" src="/images/icon-check.svg" alt="">Email reports</li>
+          
+        </ul>
+        <button class="btn-trial">Start my trial</button>
+      </div>
+    </div>
+  </div>
+  <!-- <div class="intro-con"></div>
+  <div class="pricing-con"></div> -->
+</main>
+  <!-- Simple, traffic-based pricing
   Sign-up for our 30-day trial. No credit card required. 
 
   Pageviews
@@ -29,11 +70,11 @@
   100% data ownership
   Email reports
 
-  Start my trial
+  Start my trial -->
   
-  <div class="attribution">
+  <!-- <div class="attribution">
     Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
     Coded by <a href="#">Your Name Here</a>.
-  </div>
+  </div> -->
 </body>
 </html>
